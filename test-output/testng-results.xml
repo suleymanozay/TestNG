@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="13" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="18024" started-at="2020-01-16T22:04:20 EST" finished-at="2020-01-16T22:04:38 EST">
+    <groups>
+      <group name="regression">
+        <method signature="HW.validLogin()[pri:0, instance:com.class01.HW@551aa95a]" name="validLogin" class="com.class01.HW"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name=" Regression Test" duration-ms="18024" started-at="2020-01-16T22:04:20 EST" finished-at="2020-01-16T22:04:38 EST">
+      <class name="com.class01.HW">
+        <test-method status="PASS" signature="openAndNavigate()[pri:0, instance:com.class01.HW@551aa95a]" name="openAndNavigate" is-config="true" duration-ms="12468" started-at="2020-01-16T22:04:20 EST" finished-at="2020-01-16T22:04:32 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAndNavigate -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.class01.HW@551aa95a]" name="validLogin" duration-ms="5189" started-at="2020-01-16T22:04:32 EST" finished-at="2020-01-16T22:04:37 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+      </class> <!-- com.class01.HW -->
+    </test> <!--  Regression Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
